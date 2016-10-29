@@ -10,14 +10,14 @@ PHP Code
 	$request = new Request();
 	$request->xmlHttpRequest();
 	$request->setContentType('application/x-www-form-urlencoded; charset=UTF-8');
-        $request->post('https://www.aaa.com/login', [
+	$request->post('https://www.aaa.com/login', [
 		'username' => 'test',
 		'password' => 'test'
 	]);
 	$request->setCookie('NSC_IUUQT-XXX.USFOEZPM.DPN', 'changed');
 
 	$request = new Request();
-        $request->get('https://www.aaa.com/index');
+	$request->get('https://www.aaa.com/index');
 ```
 
 Network Traffic
