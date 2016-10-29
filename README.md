@@ -14,6 +14,7 @@ PHP Code
 		'username' => 'test',
 		'password' => 'test'
 	]);
+	$request->setCookie('NSC_IUUQT-XXX.USFOEZPM.DPN', 'changed');
 
 	$request = new Request();
         $request->get('https://www.aaa.com/index');
@@ -52,7 +53,7 @@ Network Traffic
 > HEAD /index HTTP/1.1
 > Host: www.aaa.com
 > Accept: */*
-> Cookie: SH=x=COOKIE_&pp=ItMm4t5HRy+PG0lVAIiFr6/xslY=&tx=mqeBMUEemR+CB9vIkC5iMa6+zgk=;VisitorTypeStatus=visitor;NSC_IUUQT-XXX.USFOEZP$
+> Cookie: SH=x=COOKIE_&pp=ItMm4t5HRy+PG0lVAIiFr6/xslY=&tx=mqeBMUEemR+CB9vIkC5iMa6+zgk=;VisitorTypeStatus=visitor;NSC_IUUQT-XXX.USFOEZPM.DPN=changed;
 > Referer: https://www.aaa.com/login
 ...
 
