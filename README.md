@@ -50,7 +50,7 @@ Network Traffic
 < Set-Cookie: VisitorTypeStatus=visitor; domain=aaa.com; path=/
 
 
-> HEAD /index HTTP/1.1
+> GET /index HTTP/1.1
 > Host: www.aaa.com
 > Accept: */*
 > Cookie: SH=x=COOKIE_&pp=ItMm4t5HRy+PG0lVAIiFr6/xslY=&tx=mqeBMUEemR+CB9vIkC5iMa6+zgk=;VisitorTypeStatus=visitor;NSC_IUUQT-XXX.USFOEZPM.DPN=changed;
